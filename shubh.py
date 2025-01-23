@@ -15,7 +15,7 @@ keep_alive()
 logging.basicConfig(filename='bot.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7616285460:AAEnTyzsJm4llpbb_NHRSavhbZbai9ET9is')
+bot = telebot.TeleBot('8024319749:AAH1wbBFmA0a30UZWaQb7t-3FBW1_QMghaM')
 # Owner and admin user IDs
 owner_id = "7529812775"
 admin_ids = ["7529812775"]
