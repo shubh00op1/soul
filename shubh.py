@@ -318,7 +318,7 @@ def handle_attack(message):
             target = command[1]
             port = int(command[2])
             time = int(command[3])
-            if time > 300:
+            if time > 120:
                 response = "Error: Time interval must be less than 300."
             else:
                 record_command_logs(user_id, target, port, time)
