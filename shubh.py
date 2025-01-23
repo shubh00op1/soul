@@ -15,7 +15,7 @@ keep_alive()
 logging.basicConfig(filename='bot.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('8024319749:AAH1wbBFmA0a30UZWaQb7t-3FBW1_QMghaM')
+bot = telebot.TeleBot('7574867580:AAHYV2zg9RGcY3dIbkgZJbUceTYwY10bbqc')
 # Owner and admin user IDs
 owner_id = "7529812775"
 admin_ids = ["7529812775"]
@@ -318,7 +318,7 @@ def handle_attack(message):
             target = command[1]
             port = int(command[2])
             time = int(command[3])
-            if time > 120:
+            if time > 240:
                 response = "Error: Time interval must be less than 300."
             else:
                 record_command_logs(user_id, target, port, time)
